@@ -1,0 +1,113 @@
+{
+    "listings": [
+      {
+        "hotel_name": "Ocean View Resort",
+        "image_src": "https://example.com/images/ocean_view_resort.jpg",
+        "price": 250,
+        "date_available": "2025-05-01",
+        "rating": 4.8,
+        "starting_price": 200,
+        "guest_favorite": true
+      },
+      {
+        "hotel_name": "Mountain Retreat Lodge",
+        "image_src": "https://example.com/images/mountain_retreat_lodge.jpg",
+        "price": 180,
+        "date_available": "2025-06-15",
+        "rating": 4.5,
+        "starting_price": 150,
+        "guest_favorite": false
+      },
+      {
+        "hotel_name": "City Center Boutique Hotel",
+        "image_src": "https://example.com/images/city_center_boutique.jpg",
+        "price": 120,
+        "date_available": "2025-04-20",
+        "rating": 4.2,
+        "starting_price": 100,
+        "guest_favorite": true
+      },
+      {
+        "hotel_name": "Tropical Paradise Villa",
+        "image_src": "https://example.com/images/tropical_paradise_villa.jpg",
+        "price": 320,
+        "date_available": "2025-07-10",
+        "rating": 4.9,
+        "starting_price": 280,
+        "guest_favorite": true
+      },
+      {
+        "hotel_name": "Ski Lodge Inn",
+        "image_src": "https://example.com/images/ski_lodge_inn.jpg",
+        "price": 210,
+        "date_available": "2025-12-01",
+        "rating": 4.6,
+        "starting_price": 180,
+        "guest_favorite": false
+      },
+      {
+        "hotel_name": "Desert Oasis Resort",
+        "image_src": "https://example.com/images/desert_oasis_resort.jpg",
+        "price": 150,
+        "date_available": "2025-09-05",
+        "rating": 4.4,
+        "starting_price": 130,
+        "guest_favorite": true
+      },
+      {
+        "hotel_name": "Riverfront Luxury Suites",
+        "image_src": "https://example.com/images/riverfront_luxury_suites.jpg",
+        "price": 280,
+        "date_available": "2025-08-21",
+        "rating": 4.7,
+        "starting_price": 250,
+        "guest_favorite": true
+      },
+      {
+        "hotel_name": "Urban Sky Apartments",
+        "image_src": "https://example.com/images/urban_sky_apartments.jpg",
+        "price": 130,
+        "date_available": "2025-05-10",
+        "rating": 4.3,
+        "starting_price": 100,
+        "guest_favorite": false
+      },
+      {
+        "hotel_name": "Luxury Desert Retreat",
+        "image_src": "https://example.com/images/luxury_desert_retreat.jpg",
+        "price": 500,
+        "date_available": "2025-11-25",
+        "rating": 5.0,
+        "starting_price": 450,
+        "guest_favorite": true
+      },
+      {
+        "hotel_name": "Beachfront Escape Resort",
+        "image_src": "https://example.com/images/beachfront_escape_resort.jpg",
+        "price": 350,
+        "date_available": "2025-06-30",
+        "rating": 4.9,
+        "starting_price": 300,
+        "guest_favorite": true
+      },
+      {
+        "hotel_name": "Historic Grand Mansion",
+        "image_src": "https://example.com/images/historic_grand_mansion.jpg",
+        "price": 180,
+        "date_available": "2025-07-15",
+        "rating": 4.0,
+        "starting_price": 160,
+        "guest_favorite": false
+      },
+      {
+        "hotel_name": "Lakeside Cottage Getaway",
+        "image_src": "https://example.com/images/lakeside_cottage_getaway.jpg",
+        "price": 220,
+        "date_available": "2025-08-10",
+        "rating": 4.6,
+        "starting_price": 200,
+        "guest_favorite": true
+      }
+    ]
+  }
+  
