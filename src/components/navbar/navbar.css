@@ -26,7 +26,7 @@
     font-weight: bold;
     color: #ff385c;
 }
-  
+
 .pages {
     position: absolute;
     left: 50%;
@@ -46,7 +46,23 @@
     background-color: rgb(220, 220, 220);
     border-radius: 28px;
 }
+.yourhome{
+    border-radius: 32px;
+    padding: 8px;
+    display: flex;
+}
+.yourhome img{
+    width: 40px;
+    height: 40px;
+}
+.yourhome p{
+    border-radius: 32px;
+    padding: 8px;
+}
 
+.yourhome p:hover{
+    background-color: #ddd;
+} 
 .pages ul li a {
     text-decoration: none;
     color: #000000;

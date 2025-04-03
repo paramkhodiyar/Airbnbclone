@@ -1,7 +1,9 @@
 body{
   margin: 0;
+  font-family: 'Nunito', sans-serif;
 }
 .page{
   display: flex;
   flex-direction: column;
 }
+
