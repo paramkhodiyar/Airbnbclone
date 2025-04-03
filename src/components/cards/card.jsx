@@ -12,7 +12,7 @@ function Cards(){
                     <h3>{hotel.hotel_name}</h3>
                     <p>Guest Favorite: {hotel.guest_favorite ? "Yes" : "No"}</p>
                     <p>{hotel.date_available}</p>
-                    <p>₹{hotel.price} per night</p>
+                    <p className="price"><span>₹{hotel.price}</span> per night</p>
                 </div>
             ))}
         </div>

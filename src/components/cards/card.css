@@ -29,7 +29,12 @@
     object-fit: cover;
     border-radius: 12px;
 }
+.card .price span{
+    text-decoration: underline;
+    font-weight: 800;
+    color: black;
 
+}
 .card:hover {
     transform: scale(1.05);
 }
