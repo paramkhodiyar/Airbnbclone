@@ -29,7 +29,6 @@ function Navbar() {
                 </div>
                 <div className="yourhome">
                     <p>Airbnb your home</p>
-                    
                 </div>
                 
             </nav>
