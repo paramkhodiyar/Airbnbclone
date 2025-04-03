@@ -1,12 +1,13 @@
 import React from "react";
 import "./navbar.css";
+import logo from "../../../public/logo.png"
 
 function Navbar() {
     return (
         <>
             <nav className="navbar" aria-label="Main Navigation">
                 <span>
-                    <img src="/logo.png" alt="Airbnb Icon"></img>
+                    <img src={logo} alt="Airbnb Icon"></img>
                     <h2 className="logo">airbnb</h2>
                 </span>
                 <div className="pages">
