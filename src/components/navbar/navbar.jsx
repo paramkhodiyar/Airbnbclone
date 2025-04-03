@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css";
-import logo from "../../../public/logo.png"
-
+import logo from "/logo.png"
+import { FaSearch } from "react-icons/fa";
 function Navbar() {
     return (
         <>
@@ -20,16 +20,29 @@ function Navbar() {
                 <div className="searchfunction">
                     <div className="searchContainer">
                         <div className="searchbox">
-                            <input className="homes" placeholder="Search..."></input>
-                            <input className="dates" placeholder="Check-In Dates..."></input>
-                            <input className="dates" placeholder="Check-Out Dates..."></input>
-                            <input className="guests" placeholder="No. Of Guests..."></input>
-                            <button class="btn-search"><i class="fas fa-search">Hello</i></button>
+                            <div className="input">
+                                <label>Where</label>
+                                <input className="homes" placeholder="Search Destination"></input>
+                            </div>
+                            <div className="input">
+                                <label>Check-In</label>
+                                <input className="dates" placeholder="Add Dates..."></input>
+                            </div>
+                            <div className="input">
+                                <label>Check-Out</label>
+                                <input className="dates" placeholder="Add Dates..."></input>
+                            </div>
+                            <div className="inputguest">
+                                <label>Who</label>
+                                <input className="guests" placeholder="Add Guest..."></input>
+                            </div>
+                            <button className="searchbutton"><FaSearch /></button>
                         </div>
                     </div>
                 </div>
                 <div className="yourhome">
                     <p>Airbnb your home</p>
+                    {/* <h6> 🌐 </h6> */}
                 </div>
                 
             </nav>

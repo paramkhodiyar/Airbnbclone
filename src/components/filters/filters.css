@@ -6,6 +6,7 @@
     overflow-x: auto;
     padding: 10px 20px;
     white-space: nowrap;
+    margin-top: 20px;
 }
 .filteritem {
     display: flex;
