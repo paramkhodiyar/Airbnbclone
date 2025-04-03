@@ -4,8 +4,6 @@
     gap: 16px;
     padding: 50px;
 }
-
-
 .card {
     background: white;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); */
@@ -49,7 +47,6 @@
     font-weight: bold;
     border-radius: 5px;
 }
-
 @media (max-width: 768px) {
     .card {
         width: 45%;
