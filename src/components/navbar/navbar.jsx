@@ -15,12 +15,14 @@ function Navbar() {
                         <li><a href="#">Experience</a></li>
                     </ul>
                 </div>
-                <div className="searchContainer">
-                    <div className="searchbox">
-                        <input className="homes" placeholder="Search..."></input>
-                        <input className="dates" placeholder="Dates..."></input>
-                        <input className="guests" placeholder="No. Of Guests..."></input>
-                        <button class="btn-search"><i class="fas fa-search">Hello</i></button>
+                <div className="searchfunction">
+                    <div className="searchContainer">
+                        <div className="searchbox">
+                            <input className="homes" placeholder="Search..."></input>
+                            <input className="dates" placeholder="Dates..."></input>
+                            <input className="guests" placeholder="No. Of Guests..."></input>
+                            <button class="btn-search"><i class="fas fa-search">Hello</i></button>
+                        </div>
                     </div>
                 </div>
             </nav>

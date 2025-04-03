@@ -4,8 +4,10 @@
     align-items: center;
     padding: 10px 20px;
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
     position: relative;
+    margin-bottom: 80px;
+    border-bottom: 1px solid #ddd;
 }
 
 .navbar span {
@@ -58,7 +60,6 @@
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    
     margin-top: 10px;
 }
 
@@ -70,8 +71,6 @@
                 0px 8px 20px rgba(0, 0, 0, 0.2);
     width: 100%;
     display: flex;
-    
-    
 }
 .searchbox input{
     height: 100%;

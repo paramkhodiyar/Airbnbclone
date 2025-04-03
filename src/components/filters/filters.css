@@ -1,0 +1,59 @@
+.filtercontainer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+.filteritem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 12px;
+    position: relative;
+}
+
+.filteritem::after {
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    width: 0%;
+    height: 2px;
+    background-color: transparent;
+    border-radius: 2px;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out, background-color 0.3s;
+}
+
+.filteritem:hover::after {
+    width: 80%;
+    left: 10%;
+    background-color: grey;
+}
+
+.filteritem.active::after {
+    width: 80%;
+    left: 10%;
+    background-color: black;
+}
+
+
+
+
+.filtericon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.filterlabel {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
