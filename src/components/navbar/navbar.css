@@ -88,7 +88,7 @@
     display: flex;
     flex-direction: column;
 }
-.inputgues input{
+.inputguest input{
     background: transparent;
     border: none;
     width: 100%;
