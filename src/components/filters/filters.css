@@ -6,7 +6,7 @@
     overflow-x: auto;
     padding: 10px 20px;
     white-space: nowrap;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .filteritem {
     display: flex;
@@ -44,8 +44,14 @@
     left: 10%;
     background-color: black;
 }
+.filtericon, .filterlabel {
+    color: #ddd;
+}
 
-
+.filteritem:hover .filtericon, 
+.filteritem:hover .filterlabel {
+    color: black;
+}
 
 
 .filtericon {
@@ -57,4 +63,33 @@
     font-size: 14px;
     color: #333;
     font-weight: 500;
+}
+.filterbutton{
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: white;
+    padding: 12px;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.filterbutton:hover{
+    background-color: #ddd;
+    border: 1px solid black;
+
+}
+.nextbutton{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+.iconstyle{
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
 }

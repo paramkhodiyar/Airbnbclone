@@ -36,7 +36,7 @@ function Navbar() {
                                 <label>Who</label>
                                 <input className="guests" placeholder="Add Guest..."></input>
                             </div>
-                            <button className="searchbutton"><FaSearch /></button>
+                            <button className="searchbutton"><FaSearch color="white" /></button>
                         </div>
                     </div>
                 </div>

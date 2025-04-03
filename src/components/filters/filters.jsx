@@ -1,6 +1,8 @@
 import React from "react";
 import "./filters.css"; 
 import { FaMountain, FaSwimmingPool, FaTree, FaHome, FaUmbrellaBeach, FaHotel, FaFortAwesome } from "react-icons/fa"; 
+import { MdOutlineTune } from "react-icons/md";
+import { MdNavigateNext } from "react-icons/md";
 
 const filters = [
   { id: 1, icon: <FaMountain />, label: "Amazing views" },
@@ -19,10 +21,12 @@ const Filter = () => {
     <div className="filtercontainer">
       {filters.map((filter) => (
         <div key={filter.id} className="filteritem">
-          <span className="filtericon">{filter.icon}</span>
+          <span className="filtericon" >{filter.icon}</span>
           <span className="filterlabel">{filter.label}</span>
         </div>
       ))}
+      <button className="nextbutton"><MdNavigateNext className="iconstyle" style={{display:"flex", justifyContent:"center", alignItems:"center"}}/></button>
+      <button className="filterbutton"><MdOutlineTune  style={{display:"flex", justifyContent:"center", alignItems:"center", width:"auto", marginRight:"5px"}}/>   Filter</button>
     </div>
   );
 };
