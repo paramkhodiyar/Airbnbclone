@@ -1,11 +1,18 @@
 import React from "react";
+import { useState } from "react";
 import "./navbar.css";
 import logo from "/logo.png"
-import { FaSearch } from "react-icons/fa";
+import { FaSearch,FaCalendar } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { FaUserCircle } from "react-icons/fa";
+import { BsSuitcase2Fill } from "react-icons/bs";
 function Navbar() {
+    const [inputText, setInputText] = useState('');
+    const handleInputChange = (e) => {
+        setInputText(e.target.value);
+      };
     return (
+        
         <>
             <nav className="navbar" aria-label="Main Navigation">
                 <span>
@@ -23,19 +30,19 @@ function Navbar() {
                     <div className="searchContainer">
                         <div className="searchbox">
                             <div className="input where">
-                                <label>Where</label>
-                                <input className="homes" placeholder="Search Destination"></input>
+                                <label><FaSearch style={{fontSize:"13px", marginRight:"5px"}}/>Where</label>
+                                <input className="homes" placeholder="Search Destination" onChange={handleInputChange}></input>
                             </div>
                             <div className="input in">
-                                <label>Check-In</label>
+                                <label><FaCalendar  style={{fontSize:"13px", marginRight:"5px"}}/>Check-In</label>
                                 <input className="dates" placeholder="Add Dates..."></input>
                             </div>
                             <div className="input out">
-                                <label>Check-Out</label>
+                                <label><FaCalendar  style={{fontSize:"13px", marginRight:"5px"}}/>Check-Out</label>
                                 <input className="dates" placeholder="Add Dates..."></input>
                             </div>
                             <div className="inputguest">
-                                <label>Who</label>
+                                <label><BsSuitcase2Fill style={{fontSize:"13px", marginRight:"5px"}}/>Who</label>
                                 <input className="guests" placeholder="Add Guest..."></input>
                             </div>
                             <button className="searchbutton"><FaSearch color="white" /></button>

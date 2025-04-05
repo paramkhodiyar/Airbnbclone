@@ -1,4 +1,7 @@
 import "./footer.css";
+import { FaFacebook } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
@@ -40,9 +43,9 @@ function Footer() {
           <div className="footer-icons">
             <span>🌐 English (IN)</span>
             <span>₹ INR</span>
-            <span>🔵</span>
-            <span>❌</span>
-            <span>📷</span>
+            <span><FaFacebook /></span>
+            <span><AiFillInstagram /></span>
+            <span><FaXTwitter /></span>
           </div>
         </div>
       </footer>

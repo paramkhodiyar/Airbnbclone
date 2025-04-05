@@ -1,6 +1,6 @@
 .footerholder{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   text-align: center;
   width: 100vw;
@@ -18,7 +18,7 @@
   
   .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 20px;
     border-bottom: 1px solid #ddd;
   }
