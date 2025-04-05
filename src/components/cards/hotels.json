@@ -7,7 +7,7 @@
             "date_available": "10-12 Apr",
             "rating": 4.8,
             "starting_price": 18000,
-            "guest_favorite": true
+            "guest_favorite": false
         },
         {
             "hotel_name": "The Leela Palace New Delhi",
@@ -25,7 +25,7 @@
             "date_available": "Available now",
             "rating": 4.7,
             "starting_price": 13000,
-            "guest_favorite": true
+            "guest_favorite": false
         },
         {
             "hotel_name": "ITC Maurya, New Delhi",
@@ -34,7 +34,7 @@
             "date_available": "9-15 Apr",
             "rating": 4.6,
             "starting_price": 16000,
-            "guest_favorite": true
+            "guest_favorite": false
         },
         {
             "hotel_name": "The Imperial, New Delhi",
