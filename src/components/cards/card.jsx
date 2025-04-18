@@ -28,9 +28,7 @@ function Cards() {
                  </div>
                  <h3>{hotel.hotel_name}</h3>
                  <p>{hotel.date_available}</p>
-                 <p className="price">
-                   <span>₹{hotel.price}</span> per night
-                 </p>
+                 <p className="price"><span>₹{hotel.price}</span> per nigh</p>
                </div>
              </div>
              

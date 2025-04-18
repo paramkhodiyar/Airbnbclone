@@ -175,3 +175,49 @@
     color: #555;
     font-size: 20px;
 }
+/* Hide mobile-search by default */
+.mobile-search {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: all 0.4s ease-in-out;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Simplified text */
+.search-placeholder {
+    color: #555;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .desktop-search {
+        display: none;
+    }
+
+    .mobile-search {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .pages,
+    .yourhome {
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navbar span {
+        justify-content: center;
+    }
+}

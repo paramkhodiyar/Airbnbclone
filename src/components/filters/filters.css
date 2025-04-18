@@ -20,7 +20,16 @@
     border-radius: 12px;
     position: relative;
 }
-
+.filteritem,
+.filterbutton,
+.nextbutton {
+    flex-shrink: 0;
+}
+@media (max-width: 768px){
+    .filtercontainer{
+        margin-right: -100px;
+    }
+}
 .filteritem::after {
     content: "";
     position: absolute;
