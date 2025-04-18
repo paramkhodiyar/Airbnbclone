@@ -196,6 +196,10 @@
 
 /* Media Query for responsiveness */
 @media (max-width: 768px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
     .desktop-search {
         display: none;
     }

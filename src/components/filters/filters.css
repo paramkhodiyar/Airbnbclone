@@ -2,11 +2,14 @@
     display: flex;
     gap: 20px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     overflow-x: auto;
+    overflow-y: hidden;
     padding: 10px 20px;
     white-space: nowrap;
     margin-top: 25px;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 .filteritem {
     display: flex;
@@ -25,11 +28,9 @@
 .nextbutton {
     flex-shrink: 0;
 }
-@media (max-width: 768px){
-    .filtercontainer{
-        margin-right: -100px;
-    }
-}
+/* @media (max-width: 768px){
+    
+} */
 .filteritem::after {
     content: "";
     position: absolute;
